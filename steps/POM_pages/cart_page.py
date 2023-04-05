@@ -7,7 +7,7 @@ class CartPage:
         self.driver = driver # Reference the driver
         # find the view cart element using XPath
         self.cart_button = self.driver.find_element(
-            by=By.XPATH, value = "//a[@href='/view_cart']")
+            by=By.XPATH, value = "//div[@class='shop-menu pull-right']/descendant::a[@href='/view_cart']")
 
     # Function to click the cart button
     def click_cart_button(self):
@@ -17,7 +17,7 @@ class CartPage:
     def delete_product(self, product_id):
         # Locate the delete product item button
         delete_product = self.driver.find_element(
-            By.XPATH, "//*[@class='cart_delete']/*[@data-product-id='{}']".format(product_id))
+            By.XPATH, "//div[@class='table-responsive cart_info']/descendant::a[@data-product-id='{}']".format(product_id))
         delete_product.click() # Click the Delete button
     
     # Function to click the checkout button

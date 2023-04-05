@@ -1,28 +1,27 @@
-# Import seleniums By Module
-from selenium.webdriver.common.by import By
-
-class LoginPage:
+from seleniumpagefactory.Pagefactory import PageFactory
+class LoginPage(PageFactory):
     # Initialize the LoginPage
     def __init__(self, driver):
         self.driver = driver
-        # Locate the login button using XPath
-        self.login_button = self.driver.find_element(by=By.XPATH, value = "//a[@href='/login']")
-    
+   
+    locators = {
+        'email_field' : ('XPATH', "//div[@class='login-form']/descendant::input[@type='email']"),
+        'password_field' : ('XPATH', "//div[@class='login-form']/descendant::input[@type='password']"),
+        'login_button' : ('XPATH', "//div[@class='login-form']/descendant::button"),
+        'login_page_button' : ('XPATH', "//a[@href='/login']")
+    }
+
     # Function to click the login button
     def click_login_button(self):
-        self.login_button.click()
+        self.login_page_button.click()
 
     # Function to login the user with the Email and Password
     def login_to_user(self, email, password):
         # Find the email field and fill it with the passed perameter
-        email_field = self.driver.find_element(by=By.XPATH, value = "//form['/login']/input[@type='email']")
-        email_field.send_keys(email)
+        self.email_field.set_text(email)
 
         # Find the password field and fill it with the passed peramater
-        password_field = self.driver.find_element(by=By.XPATH, value = "//form['/login']/input[@type='password']")
-        password_field.send_keys(password)
-
-        password_field.submit() # Submit the field
+        self.password_field.set_text(password)
 
         # Find the Login Button and click it
-        self.driver.find_element(by=By.XPATH, value ="//form['/login']").click()
+        self.login_button.click()
