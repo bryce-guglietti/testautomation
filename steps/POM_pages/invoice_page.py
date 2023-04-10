@@ -1,14 +1,18 @@
 # Import selenium's By module
 from selenium.webdriver.common.by import By
-
-class InvoicePage:
+from seleniumpagefactory.Pagefactory import PageFactory
+import logging
+class InvoicePage(PageFactory):
     # Initialize the InvoicePage
     def __init__(self, driver):
         self.driver = driver
-        # Locate the download invoice button
-        self.download_invoice = self.driver.find_element(
-            By.XPATH, "//a[@class='btn btn-default check_out']")
 
+    logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
+
+    locators = {
+        'invoice_button' : ('XPATH', "//a[@class='btn btn-default check_out']"),
+    }
     # Function to click to dowload invoice button
     def click_download_invoice(self):
-        self.download_invoice.click()
+        self.invoice_button.click()
+        logging.info('Clicked the %s Button', self.invoice_button.text)

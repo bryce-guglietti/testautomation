@@ -1,0 +1,76 @@
+2023-04-10 13:26:01,715:INFO:Navigated to URL: https://automationexercise.com/
+2023-04-10 13:26:01,715:INFO:Navigated to the Login Button
+2023-04-10 13:26:02,160:INFO:Clicked on the Signup / Login Button
+2023-04-10 13:26:02,160:INFO:Navigating the Login Page
+2023-04-10 13:26:02,172:INFO:Logging into the Website using Credentials
+2023-04-10 13:26:02,279:INFO:Set the text for the email field
+2023-04-10 13:26:02,373:INFO:Set the text for the password field
+2023-04-10 13:26:04,789:INFO:Completed Login
+2023-04-10 13:26:04,797:INFO:Navigated to the Product Button
+2023-04-10 13:26:06,826:INFO:Clicked the Product Page Button
+2023-04-10 13:26:06,830:INFO:Navigating the Product Page
+2023-04-10 13:26:06,958:INFO:Filled the Search Form with the Term: tshirts
+2023-04-10 13:26:07,905:INFO:Clicked the Search Button
+2023-04-10 13:26:07,905:INFO:Navigate to the Single Products Section
+2023-04-10 13:26:08,169:INFO:Added item with product ID: 2 to the Cart
+2023-04-10 13:26:08,436:INFO:Clicked the Continued Shopping Button
+2023-04-10 13:26:08,751:INFO:Added item with product ID: 28 to the Cart
+2023-04-10 13:26:08,999:INFO:Clicked the Continued Shopping Button
+2023-04-10 13:26:09,002:INFO:Navigate to the Cart Button
+2023-04-10 13:26:09,523:INFO:Clicked the Cart Button
+2023-04-10 13:26:09,523:INFO:Navigating the Cart Page
+2023-04-10 13:26:09,523:INFO:Delete item with Product ID: 28 from the Cart
+2023-04-10 13:26:09,771:INFO:Successfully deleted product with Product ID: 28 from the Cart
+2023-04-10 13:26:09,771:INFO:Navigate to the Checkout Button
+2023-04-10 13:26:10,193:INFO:Clicked the Place Order Button
+2023-04-10 13:26:10,193:INFO:Navigate to the Order Button
+2023-04-10 13:26:10,500:INFO:Click the Place Order Button
+2023-04-10 13:26:10,500:INFO:Navigating the Payment Page
+2023-04-10 13:26:10,500:INFO:Fill Payment Details
+2023-04-10 13:26:10,598:INFO:Filled the Name Field with the Term: John Doe
+2023-04-10 13:26:10,676:INFO:Filled the Number Field with the Term: 1234123412341234
+2023-04-10 13:26:10,739:INFO:Filled the CVC Field with the Term: 123
+2023-04-10 13:26:10,801:INFO:Filled the Expiry Month Field with the Term: 10
+2023-04-10 13:26:10,864:INFO:Filled the Expiry Year Field with the Term: 2025
+2023-04-10 13:26:12,307:INFO:Successfully Confirmed Purchase
+2023-04-10 13:26:12,307:INFO:Navigating the Invoice Page
+2023-04-10 13:26:41,106:INFO:Navigated to URL: https://automationexercise.com/
+2023-04-10 13:26:41,106:INFO:Navigated to the Login Button
+2023-04-10 13:26:41,535:INFO:Clicked on the Signup / Login Button
+2023-04-10 13:26:41,538:INFO:Navigating the Login Page
+2023-04-10 13:26:41,538:INFO:Logging into the Website using Credentials
+2023-04-10 13:26:41,646:INFO:Set the text for the email field
+2023-04-10 13:26:41,740:INFO:Set the text for the password field
+2023-04-10 13:26:43,383:INFO:Completed Login
+2023-04-10 13:26:43,383:INFO:Navigated to the Product Button
+2023-04-10 13:26:44,661:INFO:Clicked the Product Page Button
+2023-04-10 13:26:44,661:INFO:Navigating the Product Page
+2023-04-10 13:26:44,795:INFO:Filled the Search Form with the Term: tshirts
+2023-04-10 13:26:45,920:INFO:Clicked the Search Button
+2023-04-10 13:26:45,920:INFO:Navigate to the Single Products Section
+2023-04-10 13:26:46,220:INFO:Added item with product ID: 2 to the Cart
+2023-04-10 13:26:46,471:INFO:Clicked the Continued Shopping Button
+2023-04-10 13:26:46,755:INFO:Added item with product ID: 28 to the Cart
+2023-04-10 13:26:47,038:INFO:Clicked the Continued Shopping Button
+2023-04-10 13:26:47,040:INFO:Navigate to the Cart Button
+2023-04-10 13:26:47,545:INFO:Clicked the Cart Button
+2023-04-10 13:26:47,545:INFO:Navigating the Cart Page
+2023-04-10 13:26:47,545:INFO:Delete item with Product ID: 28 from the Cart
+2023-04-10 13:26:47,791:INFO:Successfully deleted product with Product ID: 28 from the Cart
+2023-04-10 13:26:47,791:INFO:Navigate to the Checkout Button
+2023-04-10 13:26:48,336:INFO:Clicked the Place Order Button
+2023-04-10 13:26:48,340:INFO:Navigate to the Order Button
+2023-04-10 13:26:48,641:INFO:Click the Place Order Button
+2023-04-10 13:26:48,656:INFO:Navigating the Payment Page
+2023-04-10 13:26:48,656:INFO:Fill Payment Details
+2023-04-10 13:26:48,746:INFO:Filled the Name Field with the Term: John Doe
+2023-04-10 13:26:48,824:INFO:Filled the Number Field with the Term: 1234123412341234
+2023-04-10 13:26:48,887:INFO:Filled the CVC Field with the Term: 123
+2023-04-10 13:26:48,949:INFO:Filled the Expiry Month Field with the Term: 10
+2023-04-10 13:26:49,012:INFO:Filled the Expiry Year Field with the Term: 2025
+2023-04-10 13:26:50,641:INFO:Successfully Confirmed Purchase
+2023-04-10 13:26:50,644:INFO:Navigating the Invoice Page
+2023-04-10 13:26:55,981:INFO:Clicked the Download Invoice Button
+2023-04-10 13:26:55,981:INFO:Download the Invoice
+2023-04-10 13:26:59,183:INFO:Close the WebDriver
+2023-04-10 13:26:59,183:INFO:Completed the Automation Successfully
