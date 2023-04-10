@@ -10,7 +10,10 @@ class ProductPage(PageFactory):
     def __init__(self, driver):
         self.driver = driver
 
+    #set up logging
+    logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
+    #Set up Product Page Locators
     locators = {
         'search_form' : ('XPATH', "//div[@class='container']/descendant::input[@class='form-control input-lg']"),
         'search_button' : ('XPATH', "//button[@id='submit_search']"),
@@ -18,7 +21,6 @@ class ProductPage(PageFactory):
         'continue_button' : ('XPATH', "//div[@class='modal-footer']/descendant::button"),
         #'add_product_button' : ('XPATH', f"//div[@class='productinfo text-center']/descendant::a[@data-product-id='{product_id}']")
     }
-    logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
     # Function to click the product page button
     def click_product_button(self):

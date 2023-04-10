@@ -12,9 +12,9 @@ from POM_pages.order_page import OrderPage
 from POM_pages.payment_page import PaymentPage
 from POM_pages.invoice_page import InvoicePage
 
-
-
+#Setup Logging
 logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
+
 # Start the webdriver with the ad blocker active
 @given('I am on the homepage')
 def step_impl(context):

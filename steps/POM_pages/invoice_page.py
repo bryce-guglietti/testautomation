@@ -7,8 +7,10 @@ class InvoicePage(PageFactory):
     def __init__(self, driver):
         self.driver = driver
 
+    #Set up logging
     logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
+    #Set up Locators for Invoice Page
     locators = {
         'invoice_button' : ('XPATH', "//a[@class='btn btn-default check_out']"),
     }

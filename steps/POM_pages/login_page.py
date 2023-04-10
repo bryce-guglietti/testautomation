@@ -5,13 +5,16 @@ class LoginPage(PageFactory):
     def __init__(self, driver):
         self.driver = driver
 
+    #Set up logging
+    logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
+
+    #Set up the locators for the Login Page
     locators = {
         'email_field' : ('XPATH', "//div[@class='login-form']/descendant::input[@type='email']"),
         'password_field' : ('XPATH', "//div[@class='login-form']/descendant::input[@type='password']"),
         'login_button' : ('XPATH', "//div[@class='login-form']/descendant::button"),
         'login_page_button' : ('XPATH', "//a[@href='/login']")
     }
-    logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
     # Function to click the login button
     def click_login_button(self):

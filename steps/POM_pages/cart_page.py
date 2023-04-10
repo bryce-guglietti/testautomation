@@ -7,8 +7,10 @@ class CartPage(PageFactory):
     def __init__(self, driver):
         self.driver = driver # Reference the driver
 
+    #Set up logging 
     logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
+    #Set up locators for the cart page
     locators = {
         'cart_button' : ('XPATH', "//div[@class='shop-menu pull-right']/descendant::a[@href='/view_cart']"),
         'checkout_button' : ('XPATH', "//a[@class='btn btn-default check_out']"),
@@ -28,6 +30,7 @@ class CartPage(PageFactory):
             By.XPATH, "//div[@class='table-responsive cart_info']/descendant::a[@data-product-id='{}']".format(product_id))
         delete_product.click() # Click the Delete button
         logging.info('Successfully deleted product with Product ID: %s from the Cart', product_id)  
+   
     # Function to click the checkout button
     def click_checkout_button(self):
         # Locate the checkout item button

@@ -7,8 +7,10 @@ class PaymentPage(PageFactory):
     def __init__(self, driver):
         self.driver = driver
 
+    #set up logging
     logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
-
+    
+    #Payment Page Locators
     locators = {
         'confirm_button' : ('XPATH',"//form[@id='payment-form']/descendant::button"),
         'name_field' : ('XPATH',"//form[@id='payment-form']/descendant::input[@name='name_on_card']"),
