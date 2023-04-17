@@ -38,3 +38,132 @@
 2023-04-10 13:40:31,717:INFO:Download the Invoice
 2023-04-10 13:40:34,856:INFO:Close the WebDriver
 2023-04-10 13:40:34,856:INFO:Completed the Automation Successfully
+2023-04-11 16:32:12,726:INFO:Navigated to URL: https://automationexercise.com/
+2023-04-11 16:32:12,726:INFO:Navigated to the Login Button
+2023-04-11 16:32:13,183:INFO:Clicked on the Signup / Login Button
+2023-04-11 16:32:13,183:INFO:Navigating the Login Page
+2023-04-11 16:32:13,183:INFO:Logging into the Website using Credentials
+2023-04-11 16:32:13,323:INFO:Set the text for the email field
+2023-04-11 16:32:13,427:INFO:Set the text for the password field
+2023-04-11 16:32:15,227:INFO:Completed Login
+2023-04-11 16:32:15,227:INFO:Navigated to the Product Button
+2023-04-11 16:32:16,354:INFO:Clicked the Product Page Button
+2023-04-11 16:32:16,354:INFO:Navigating the Product Page
+2023-04-11 16:32:16,515:INFO:Filled the Search Form with the Term: tshirts
+2023-04-11 16:32:17,865:INFO:Clicked the Search Button
+2023-04-11 16:32:17,869:INFO:Navigate to the Single Products Section
+2023-04-11 16:32:18,126:INFO:Added item with product ID: 2 to the Cart
+2023-04-11 16:32:18,377:INFO:Clicked the Continued Shopping Button
+2023-04-11 16:32:18,643:INFO:Added item with product ID: 28 to the Cart
+2023-04-11 16:32:19,444:INFO:Clicked the Continued Shopping Button
+2023-04-11 16:32:19,444:INFO:Navigate to the Cart Button
+2023-04-11 16:32:20,004:INFO:Clicked the Cart Button
+2023-04-11 16:32:20,004:INFO:Navigating the Cart Page
+2023-04-11 16:32:20,004:INFO:Delete item with Product ID: 28 from the Cart
+2023-04-11 16:32:20,243:INFO:Successfully deleted product with Product ID: 28 from the Cart
+2023-04-11 16:32:20,243:INFO:Navigate to the Checkout Button
+2023-04-11 16:32:20,929:INFO:Clicked the Place Order Button
+2023-04-11 16:32:20,929:INFO:Navigate to the Order Button
+2023-04-11 16:32:21,459:INFO:Clicked the Checkout Button
+2023-04-11 16:32:21,459:INFO:Click the Place Order Button
+2023-04-11 16:32:21,475:INFO:Navigating the Payment Page
+2023-04-11 16:32:21,475:INFO:Fill Payment Details
+2023-04-11 16:32:21,585:INFO:Filled the Name Field with the Term: John Doe
+2023-04-11 16:32:21,710:INFO:Filled the Number Field with the Term: 1234123412341234
+2023-04-11 16:32:21,789:INFO:Filled the CVC Field with the Term: 123
+2023-04-11 16:32:21,883:INFO:Filled the Expiry Month Field with the Term: 10
+2023-04-11 16:32:21,977:INFO:Filled the Expiry Year Field with the Term: 2025
+2023-04-11 16:32:23,874:INFO:Successfully Confirmed Purchase
+2023-04-11 16:32:23,874:INFO:Navigating the Invoice Page
+2023-04-13 14:54:11,752:INFO:Navigated to URL: https://automationexercise.com/
+2023-04-13 14:54:11,757:INFO:Navigated to the Login Button
+2023-04-13 14:54:12,244:INFO:Clicked on the Signup / Login Button
+2023-04-13 14:54:12,245:INFO:Navigating the Login Page
+2023-04-13 14:54:12,245:INFO:Logging into the Website using Credentials
+2023-04-13 14:54:12,378:INFO:Set the text for the email field
+2023-04-13 14:54:12,484:INFO:Set the text for the password field
+2023-04-13 14:54:12,819:INFO:Completed Login
+2023-04-13 14:54:12,821:INFO:Navigated to the Product Button
+2023-04-13 14:54:14,448:INFO:Clicked the Product Page Button
+2023-04-13 14:54:14,450:INFO:Navigating the Product Page
+2023-04-13 14:54:14,582:INFO:Filled the Search Form with the Term: tshirts
+2023-04-13 14:54:15,824:INFO:Clicked the Search Button
+2023-04-13 14:54:15,827:INFO:Navigate to the Single Products Section
+2023-04-13 14:54:16,093:INFO:Added item with product ID: 2 to the Cart
+2023-04-13 14:54:16,358:INFO:Clicked the Continued Shopping Button
+2023-04-13 14:54:16,634:INFO:Added item with product ID: 28 to the Cart
+2023-04-13 14:54:16,887:INFO:Clicked the Continued Shopping Button
+2023-04-13 14:54:16,891:INFO:Navigate to the Cart Button
+2023-04-13 14:54:17,521:INFO:Clicked the Cart Button
+2023-04-13 14:54:17,523:INFO:Navigating the Cart Page
+2023-04-13 14:54:17,523:INFO:Delete item with Product ID: 28 from the Cart
+2023-04-13 14:54:17,755:INFO:Successfully deleted product with Product ID: 28 from the Cart
+2023-04-13 14:54:17,757:INFO:Navigate to the Checkout Button
+2023-04-13 14:54:18,043:INFO:Clicked the Proceed To Checkout Button
+2023-04-13 14:54:18,044:INFO:Navigate to the Order Button
+2023-04-17 11:26:53,572:INFO:Navigated to URL: https://automationexercise.com/
+2023-04-17 11:26:53,585:INFO:Navigated to the Login Button
+2023-04-17 11:26:54,170:INFO:Clicked on the Signup / Login Button
+2023-04-17 11:26:54,172:INFO:Navigating the Login Page
+2023-04-17 11:26:54,172:INFO:Logging into the Website using Credentials
+2023-04-17 11:26:54,392:INFO:Set the text for the email field
+2023-04-17 11:26:54,526:INFO:Set the text for the password field
+2023-04-17 11:26:54,905:INFO:Completed Login
+2023-04-17 11:26:54,910:INFO:Navigated to the Product Button
+2023-04-17 11:26:56,024:INFO:Clicked the Product Page Button
+2023-04-17 11:26:56,027:INFO:Navigating the Product Page
+2023-04-17 11:26:56,201:INFO:Filled the Search Form with the Term: tshirts
+2023-04-17 11:26:56,930:INFO:Clicked the Search Button
+2023-04-17 11:26:56,933:INFO:Navigate to the Single Products Section
+2023-04-17 11:26:57,221:INFO:Added item with product ID: 2 to the Cart
+2023-04-17 11:26:57,474:INFO:Clicked the Continued Shopping Button
+2023-04-17 11:26:57,713:INFO:Added item with product ID: 28 to the Cart
+2023-04-17 11:26:57,957:INFO:Clicked the Continued Shopping Button
+2023-04-17 11:26:57,958:INFO:Navigate to the Cart Button
+2023-04-17 11:26:58,521:INFO:Clicked the Cart Button
+2023-04-17 11:26:58,522:INFO:Navigating the Cart Page
+2023-04-17 11:26:58,522:INFO:Delete item with Product ID: 28 from the Cart
+2023-04-17 11:26:58,752:INFO:Successfully deleted product with Product ID: 28 from the Cart
+2023-04-17 11:26:58,753:INFO:Navigate to the Checkout Button
+2023-04-17 11:26:59,037:INFO:Clicked the Proceed To Checkout Button
+2023-04-17 11:26:59,038:INFO:Navigate to the Order Button
+2023-04-17 11:28:27,149:INFO:Navigated to URL: https://automationexercise.com/
+2023-04-17 11:28:27,163:INFO:Navigated to the Login Button
+2023-04-17 11:28:27,925:INFO:Clicked on the Signup / Login Button
+2023-04-17 11:28:27,926:INFO:Navigating the Login Page
+2023-04-17 11:28:27,926:INFO:Logging into the Website using Credentials
+2023-04-17 11:28:28,124:INFO:Set the text for the email field
+2023-04-17 11:28:28,257:INFO:Set the text for the password field
+2023-04-17 11:28:28,602:INFO:Completed Login
+2023-04-17 11:28:28,604:INFO:Navigated to the Product Button
+2023-04-17 11:28:29,857:INFO:Clicked the Product Page Button
+2023-04-17 11:28:29,859:INFO:Navigating the Product Page
+2023-04-17 11:28:30,025:INFO:Filled the Search Form with the Term: tshirts
+2023-04-17 11:28:30,906:INFO:Clicked the Search Button
+2023-04-17 11:28:30,907:INFO:Navigate to the Single Products Section
+2023-04-17 11:28:31,180:INFO:Added item with product ID: 2 to the Cart
+2023-04-17 11:28:31,443:INFO:Clicked the Continued Shopping Button
+2023-04-17 11:28:31,689:INFO:Added item with product ID: 28 to the Cart
+2023-04-17 11:28:31,950:INFO:Clicked the Continued Shopping Button
+2023-04-17 11:28:31,952:INFO:Navigate to the Cart Button
+2023-04-17 11:28:32,529:INFO:Clicked the Cart Button
+2023-04-17 11:28:32,530:INFO:Navigating the Cart Page
+2023-04-17 11:28:32,531:INFO:Delete item with Product ID: 28 from the Cart
+2023-04-17 11:28:32,768:INFO:Successfully deleted product with Product ID: 28 from the Cart
+2023-04-17 11:28:32,770:INFO:Navigate to the Checkout Button
+2023-04-17 11:28:33,048:INFO:Clicked the Proceed To Checkout Button
+2023-04-17 11:28:33,049:INFO:Navigate to the Order Button
+2023-04-17 11:31:02,577:INFO:Navigated to URL: https://automationexercise.com/
+2023-04-17 11:31:02,581:INFO:Navigated to the Login Button
+2023-04-17 11:31:03,193:INFO:Clicked on the Signup / Login Button
+2023-04-17 11:31:03,196:INFO:Navigating the Login Page
+2023-04-17 11:31:03,196:INFO:Logging into the Website using Credentials
+2023-04-17 11:31:03,389:INFO:Set the text for the email field
+2023-04-17 11:31:03,521:INFO:Set the text for the password field
+2023-04-17 11:31:05,188:INFO:Completed Login
+2023-04-17 11:31:05,189:INFO:Navigated to the Product Button
+2023-04-17 11:31:06,767:INFO:Clicked the Product Page Button
+2023-04-17 11:31:06,772:INFO:Navigating the Product Page
+2023-04-17 11:31:07,031:INFO:Filled the Search Form with the Term: tshirts
+2023-04-17 11:31:07,649:INFO:Clicked the Search Button
+2023-04-17 11:31:07,714:INFO:Navigate to the Single Products Section
