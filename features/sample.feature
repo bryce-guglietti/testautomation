@@ -13,3 +13,4 @@ Feature: Search feature
     When I click on the Place Order button
     When I fill out the credit card form
     Then I click on the invoice button
+
