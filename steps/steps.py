@@ -38,7 +38,7 @@ def step_impl(context):
     login_page = LoginPage(context.driver)
     # The parameters are Username and Password
     logging.info('Logging into the Website using Credentials')
-    login_page.login_to_user('Bryce81@outlook.com', '123')
+    login_page.login_to_user('Bryce123@outlook.com', '123')
 
 # Call the ProductPage and click the product button
 @when('I click on the "{button_name}" button')
