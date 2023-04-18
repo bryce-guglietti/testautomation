@@ -2,14 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Install Allure') {
-            steps {
-                bat 'curl -o allure-2.14.0.tgz -Ls https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.tgz'
-                bat 'tar -zxvf allure-2.14.0.tgz'
-                bat 'export PATH=$PATH:$(pwd)/allure-2.14.0/bin'
-                bat 'allure --version'
-            }
-        }
         stage('Build') {
             steps {
                 bat 'python tests/run_tests.py'
