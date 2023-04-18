@@ -3,7 +3,7 @@ import logging
 
 # Import behave and selenium
 from behave import given, when, then
-from seenium import webdriver
+from selenium import webdriver
 
 # Import the POM classes
 from POM_pages.login_page import LoginPage
