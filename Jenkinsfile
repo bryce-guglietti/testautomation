@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'python testautomation/tests/run_test.py'
+                sh 'python tests/run_test.py'
             }
         }
         stage('Test') {
