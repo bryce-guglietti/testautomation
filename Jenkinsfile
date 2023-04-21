@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'python tests/run_tests.py'
+                bat 'behave -f allure_behave.formatter:AllureFormatter -o ./allure-results ./features'
             }
         }
         stage('Test') {
@@ -18,4 +18,11 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+        }
+
+    }
+    
 }
