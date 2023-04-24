@@ -25,6 +25,10 @@ class ProductPage(PageFactory):
     # Function to click the product page button
     def click_product_button(self):
         self.product_page_button.click()
+        if "#google_vignette" in self.driver.current_url:
+            self.driver.back()
+            self.product_page_button.click()
+
         logging.info('Clicked the Product Page Button')
 
     # Function to search for products using a product search parameter 

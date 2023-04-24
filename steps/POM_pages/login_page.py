@@ -31,4 +31,8 @@ class LoginPage(PageFactory):
         logging.info('Set the text for the %s field', self.password_field.get_attribute('name'))
         # Find the Login Button and click it
         self.login_button.click()
+        if "#google_vignette" in self.driver.current_url:
+            self.driver.back()
+            self.login_button.click()
+
         logging.info('Completed Login')

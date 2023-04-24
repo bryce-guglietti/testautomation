@@ -16,11 +16,14 @@ from POM_pages.invoice_page import InvoicePage
 #Setup Logging
 logging.basicConfig(filename='test.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
+
+options = webdriver.ChromeOptions()
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
 # Start the webdriver with the ad blocker active
 @given('I am on the homepage')
 def step_impl(context):
-    context.driver = webdriver.Firefox()
-    context.driver.install_addon(r"C:\Users\bguglietti\uBlock0_1.48.5b4.firefox.signed.xpi", temporary=True)
+    context.driver = webdriver.Chrome(options=options)
     url = 'https://automationexercise.com/'
     context.driver.get(url)
     logging.info('Navigated to URL: %s', url)

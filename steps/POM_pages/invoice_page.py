@@ -17,4 +17,7 @@ class InvoicePage(PageFactory):
     # Function to click to dowload invoice button
     def click_download_invoice(self):
         self.invoice_button.click()
+        if "#google_vignette" in self.driver.current_url:
+            self.driver.back()
+            self.invoice_button.click()
         logging.info('Clicked the %s Button', self.invoice_button.text)
