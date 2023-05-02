@@ -1,4 +1,3 @@
-#import logging
 import logging
 
 # Import behave and selenium
@@ -64,7 +63,7 @@ def step_impl(context, search_term):
     product_page = ProductPage(context.driver)
 
     logging.info('Navigate to the Single Products Section')
-    logging.info('Attempt to add 2 %s', search_term, 'to the cart')
+    logging.info('Attempt to add 2 %s to the cart', search_term)
     # The parameter is the product ID's 
     product_page.add_product_to_cart('2')
     product_page.add_product_to_cart('28')

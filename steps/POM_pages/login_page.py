@@ -12,7 +12,7 @@ class LoginPage(PageFactory):
     locators = {
         'email_field' : ('XPATH', "//div[@class='login-form']/descendant::input[@type='email']"),
         'password_field' : ('XPATH', "//div[@class='login-form']/descendant::input[@type='password']"),
-        'login_button' : ('XPATH', "//div[@class='login-form']/descendant::button"),
+        'login_button' : ('XPATH ', "//div[@class='login-form']/descendant::button"),
         'login_page_button' : ('XPATH', "//a[@href='/login']")
     }
 
